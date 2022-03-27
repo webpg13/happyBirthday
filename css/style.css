@@ -973,7 +973,7 @@
 }
 
 .ly-txt22 p{
-	margin: 0.5em 0 0;text-indent: 1.5em;
+	margin: 0.35em 0 0;text-indent: 1.5em;
 }
 
 .active .ly-txt22 {
@@ -1059,6 +1059,17 @@
 	transition: all 0.5s;
 	width:88%;
 	overflow:hidden;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.flex p{
+	margin: 0.5em 0;
+	text-indent: 0;
+	min-width: 70px;
 }
 
 .active .ly-txt24 {
@@ -1216,7 +1227,7 @@
 /* 盒子 */
 .ly-box31 {
 	width: 30%;
-	height: 600px;
+	height: 780px;
 	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
@@ -1853,7 +1864,7 @@
 	position: absolute;
 	width: 80%;
 	left: 50%;
-	bottom: 0;
+	bottom: 6%;
 	transform: translateX(-50%);
 }
 
@@ -2203,4 +2214,22 @@
 }
 .xx94 {
 	height:80%;
+}
+
+.ly-img13{
+	display: flex;
+}
+
+.ly-img13 img{
+	width: 35%;
+}
+
+.dsx{
+	position: absolute;
+	left: 8.5%;
+}
+
+.left50{
+	left: 50%;
+	transform: translateX(-50%);
 }
